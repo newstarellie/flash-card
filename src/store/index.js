@@ -1,6 +1,6 @@
 // 引入 Vuex 和 Vue
 import { createStore } from 'vuex';
-// import productsModule from './modules/products';
+import basicModule from './modules/basicModule'
 
 
 
@@ -28,7 +28,7 @@ export default createStore({
   getters,
   actions,
   mutations,
-  // modules: {
-  //   productsModule: productsModule,
-  // },
+  modules: {
+    basicModule: basicModule,
+  },
 });

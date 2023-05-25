@@ -33,4 +33,21 @@ export default {
   display: flex;
   flex-direction: column;
 }
+
+
+main {
+  flex: 1;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+.navbar {
+  // background-color: red;
+
+  ul {
+    // padding: 50px;
+  }
+}
 </style>

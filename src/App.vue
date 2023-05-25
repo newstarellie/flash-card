@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <Navbar class="navbar"></Navbar>
-
     <main>
       <router-view></router-view>
     </main>
@@ -20,7 +19,14 @@ export default {
   components: {
     Navbar
   },
+  data() {
+    return {
+    }
+  },
   computed: {
+  },
+  created() {
+    this.$store.dispatch('setFireBase');
   },
 
 }

@@ -1,13 +1,12 @@
 <template>
   <div class="home">
     <h1>Home</h1>
-    <!-- <ProductList :products="allProducts" @addToCart="addToCart" /> -->
+
   </div>
 </template>
 
 <script>
-// import ProductList from '@/components/ProductList.vue';
-// import { mapGetters } from 'vuex';
+
 
 
 export default {
@@ -16,15 +15,13 @@ export default {
     // ProductList,
   },
   created() {
-
+    this.$store.dispatch('setFireBase');
   },
   computed: {
-    // ...mapGetters('products', ['allProducts']),
+
   },
   methods: {
-    // addToCart(product) {
-    //   // return this.$store.dispatch('cart/addToCart', product);
-    // },
+
   }
 };
 </script>

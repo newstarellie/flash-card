@@ -1,24 +1,25 @@
-# vue-shop
+# 專案進度 :
 
-## Project setup
-```
-npm install
-```
+未完成
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# 專案目的
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- 建立一個單字複習的工具 像是Quizlet那樣的
 
-### Lints and fixes files
-```
-npm run lint
-```
+# 專案功能
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- 翻轉單字表
+- 自動朗讀內容
+
+# 使用工具
+```jsx
+"dependencies": {
+    "core-js": "^3.8.3",
+    "firebase": "^9.22.0",
+    "vue": "^3.2.13",
+    "vue-router": "^4.2.0",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2",
+    "vuex": "^4.1.0"
+  },
+```
